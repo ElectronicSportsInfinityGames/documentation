@@ -1,20 +1,27 @@
 # Site settings
-title: Electronic Sports Infinity Games
+title: 么 Electronic Sports Infinity Games
 description: Jekyll Theme Minimal Resume
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Electronic Sports Infinity Games
-user_description:
+user_description: Administrator
 user_title: Disfruta de la experiencia gaming definitiva..
-email: electronicsportsinfinitygames@gmail.com
-twitter_username: lorem_ipsum
-instagram_username: lorem_ipsum
-facebook_username: ElectronicSportsInfinityGames/
-linkedin_username: lorem_ipsum
-github_username:  lorem_ipsum
-medium_username: lorem_ipsum
+
+# email: electronicsportsinfinitygames@gmail.com
+
+# instagram_username: lorem_ipsum
+facebook_username: ElectronicSportsInfinityGames
+twitch_username: e_sports_infinity_games
+discord_server: y5AG5VX8
+youtube_username: electronicsportsinfinitygames
+steam_group: ElectronicSportsInfinityGames
+whatsapp_number: 59163755267
+# telegram_username: ElectronicSportsInfinityGames
+# github_username:  lorem_ipsum
+location_link: Qx3KY7KhF9ZxZmam8
+# medium_username: lorem_ipsum
 # medium_url: lorem_ipsum.medium.com
 # gplus_username:  lorem_ipsum
 

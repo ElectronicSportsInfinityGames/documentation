@@ -8,20 +8,35 @@
         {% if site.email %}
         <a aria-label="Send email" href="mailto:{{ site.email }}"><i class="icon fa fa-envelope"></i></a>
         {% endif %}
-        {% if site.twitter_username %}
-        <a aria-label="My Twitter" target="_blank" href="https://twitter.com/{{ site.twitter_username }}"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
-        {% endif %}
         {% if site.instagram_username %}
         <a aria-label="My Instagram" target="_blank" href="https://www.instagram.com/{{ site.instagram_username }}"><i class="icon fa fa-instagram" aria-hidden="true"></i></a>
         {% endif %}
         {% if site.facebook_username %}
         <a aria-label="My Facebook" target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}"><i class="icon fa fa-facebook" aria-hidden="true"></i></a>
         {% endif %}
-        {% if site.linkedin_username %}
-        <a aria-label="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="icon fa fa-linkedin-square" aria-hidden="true"></i></a>
+        {% if site.twitch_username %}
+        <a aria-label="My Twitch" target="_blank" href="https://www.twitch.tv/{{ site.twitch_username }}"><i class="icon fa fa-twitch" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if site.youtube_username %}
+        <a aria-label="My YouTube" target="_blank" href="https://www.youtube.com/@{{ site.youtube_username }}"><i class="icon fa fa-youtube-play" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if site.discord_server %}
+        <a aria-label="My Discord Server" target="_blank" href="https://discord.gg/{{ site.discord_server }}"><i class="icon fa fa-commenting" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if site.steam_group %}
+        <a aria-label="My Steam Group" target="_blank" href="https://steamcommunity.com/groups/{{ site.steam_group }}"><i class="icon fa fa-steam" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if site.whatsapp_number %}
+        <a aria-label="My WhatsApp" target="_blank" href="https://wa.me/{{ site.whatsapp_number }}"><i class="icon fa fa-whatsapp" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if site.telegram_username %}
+        <a aria-label="My Telegram" target="_blank" href="https://t.me/{{ site.telegram_username }}"><i class="icon fa fa-diamond" aria-hidden="true"></i></a>
         {% endif %}
         {% if site.github_username %}
         <a aria-label="My Github" target="_blank" href="https://github.com/{{ site.github_username }}"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if site.location_link %}
+        <a aria-label="My Location" target="_blank" href="https://maps.app.goo.gl/{{ site.location_link }}"><i class="icon fa fa-map" aria-hidden="true"></i></a>
         {% endif %}
         {% if site.medium_username %}
         <a aria-label="My Medium" target="_blank" href="https://medium.com/{{ site.medium_username }}"><i class="icon fa fa-medium" aria-hidden="true"></i></a>
